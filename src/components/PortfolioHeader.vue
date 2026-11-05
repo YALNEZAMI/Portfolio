@@ -24,7 +24,12 @@
       class="flex items-center gap-[9px] text-xs font-semibold max-[650px]:gap-[7px] max-[650px]:text-[10px]"
       href="#contact"
     >
-      <span class="size-2 rounded-full bg-[#79a742] shadow-[0_0_0_4px_#e6edda]"></span>
+      <span class="relative flex size-2" aria-hidden="true">
+        <span
+          class="absolute inset-0 inline-flex size-full animate-ping rounded-full bg-[#79a742] opacity-75"
+        ></span>
+        <span class="relative z-10 inline-flex size-2 rounded-full bg-[#79a742]"></span>
+      </span>
       Stage · mars 2027
     </a>
   </header>
