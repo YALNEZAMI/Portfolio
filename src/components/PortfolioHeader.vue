@@ -7,9 +7,11 @@
       href="#accueil"
       aria-label="Yaser Alnezami, accueil"
     >
-      <span
-        class="grid size-[30px] place-items-center rounded-full bg-ink font-display text-[13px] font-extrabold tracking-[-0.08em] text-accent max-[650px]:size-[27px]"
-      >ya</span>
+      <img
+        class="relative z-0 size-[30px] shrink-0 rounded-full object-cover transition-transform duration-300 ease-out hover:z-10 hover:scale-[3] max-[650px]:size-[27px]"
+        src="https://cdn2.cvdesignr.com/u/users/658707c4c3d6c/d1568932052f46df21ffd2fe7b6a4d1ee3195e31.jpg"
+        alt=""
+      />
       <span>Yaser Alnezami</span>
     </a>
     <nav
