@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-[#282d24] pt-[85px] pb-[60px] text-paper max-[650px]:pt-[70px] max-[650px]:pb-[35px]">
+  <section id="contact" class="bg-[#282d24] pt-[85px] pb-[60px] text-paper max-[650px]:pt-[70px] max-[650px]:pb-[35px]">
     <div class="mx-auto w-[calc(100%-80px)] max-w-[1120px] text-center max-[900px]:w-[calc(100%-48px)] max-[900px]:max-w-[720px] max-[650px]:w-[calc(100%-40px)]">
       <p class="mb-6 flex items-center justify-center gap-[10px] text-[10px] font-bold uppercase tracking-[0.14em] text-[#aeb3a4]">
         <span class="h-px w-5 bg-accent"></span> Et maintenant ?

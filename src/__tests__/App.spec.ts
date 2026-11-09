@@ -17,6 +17,8 @@ describe('App', () => {
   it('links to the CV and contact details', () => {
     const wrapper = mount(App)
     expect(wrapper.find('a[href="/CV_Yaser_Alnezami_optimise.pdf"]').exists()).toBe(true)
+    expect(wrapper.find('a[href="#contact"]').exists()).toBe(true)
+    expect(wrapper.find('#contact').exists()).toBe(true)
     expect(wrapper.find('a[href="mailto:yaseralnezami@gmail.com"]').exists()).toBe(true)
     expect(wrapper.find('a[href="https://github.com/YALNEZAMI"]').exists()).toBe(true)
   })
