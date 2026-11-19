@@ -28,7 +28,7 @@ const projects = [
     name: 'Message-It',
     type: 'Projet personnel',
     description:
-      'Une messagerie instantanée enrichie d’un chatbot Gemini, du frontend aux micro-services.',
+      'Une messagerie instantanée enrichie d’un chatbot Gemini et d’une recherche sémantique des messages, du frontend aux micro-services.',
     stack: ['Angular', 'NestJS', 'MongoDB'],
     href: 'https://github.com/YALNEZAMI/messageit-ui-f',
     theme: 'bg-[#d6e5dc]',

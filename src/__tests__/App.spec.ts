@@ -11,6 +11,7 @@ describe('App', () => {
     expect(wrapper.text()).toContain('Stage · mars 2027')
     expect(wrapper.text()).toContain('FAV-Dev')
     expect(wrapper.text()).toContain('ExpoIA')
+    expect(wrapper.text()).toContain('recherche sémantique des messages')
     expect(wrapper.text()).toContain('Antidots')
   })
 
